@@ -15,7 +15,7 @@ class MyApp extends StatelessWidget {
     return ChangeNotifierProvider(
       create: (context) => EmployeeProvider(),
       child: MaterialApp(
-        title: 'MyApp',
+        title: 'UTS Tekber 06621',
         home: EmployeePage(),
       ),
     );
